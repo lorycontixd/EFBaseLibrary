@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BaseLibrary.Data.Entities.Base
 {
-    public class BaseEntity : AuditableEntity
+    public class BaseEntity
     {
         public int Id { get; set; }
     }
