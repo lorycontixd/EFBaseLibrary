@@ -1,4 +1,4 @@
-﻿using BaseLibrary.Application.Services.Utils;
+﻿using BaseLibrary.Application.Interfaces.Utils;
 using System.Security.Cryptography;
 
 namespace BaseLibrary.Infrastructure.Services.Utils.Hashing

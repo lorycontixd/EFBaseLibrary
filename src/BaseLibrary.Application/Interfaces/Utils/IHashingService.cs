@@ -1,4 +1,4 @@
-﻿namespace BaseLibrary.Application.Services.Utils
+﻿namespace BaseLibrary.Application.Interfaces.Utils
 {
     public interface IHashingService
     {
