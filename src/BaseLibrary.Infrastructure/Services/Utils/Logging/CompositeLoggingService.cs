@@ -1,5 +1,5 @@
-﻿using BaseLibrary.Application.Interfaces.Utils;
-using BaseLibrary.Application.Services.Utils;
+﻿using BaseLibrary.Application.Interfaces;
+using BaseLibrary.Application.Services;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

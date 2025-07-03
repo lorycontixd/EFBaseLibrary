@@ -1,5 +1,5 @@
-﻿using BaseLibrary.Application.Interfaces.Utils;
-using BaseLibrary.Application.Services.Utils;
+﻿using BaseLibrary.Application.Interfaces;
+using BaseLibrary.Application.Services;
 using Microsoft.Extensions.Logging;
 
 namespace BaseLibrary.Infrastructure.Services.Utils.Logging

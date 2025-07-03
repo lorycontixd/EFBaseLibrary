@@ -1,4 +1,4 @@
-﻿namespace BaseLibrary.Application.Interfaces.Utils
+﻿namespace BaseLibrary.Application.Interfaces
 {
     public interface ILoggingService
     {

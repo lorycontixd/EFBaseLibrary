@@ -1,13 +1,13 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace BaseLibrary.Application.Dto.Base
+namespace BaseLibrary.Application.DTOs.Base
 {
     /// <summary>
     /// Base class for all Data Transfer Objects (DTOs) that include an ID property.
     /// </summary>
-    public abstract class BaseDto : IdDto
+    public abstract class BaseDto : IDto
     {
-        public int Id { get; set; } = default!;
+        public int Id { get; set; }
     }
 
     /// <summary>
@@ -30,7 +30,7 @@ namespace BaseLibrary.Application.Dto.Base
     /// Base class for Data Transfer Objects (DTOs) used for creating new entities.
     /// Post requests typically do not require an ID.
     /// </summary>
-    public abstract class CreateDto : IDto
+    public abstract class CreateDto : BaseDto
     {
     }
 
