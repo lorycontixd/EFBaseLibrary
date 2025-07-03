@@ -1,11 +1,7 @@
-﻿namespace BaseLibrary.Application.Dto.Base
+﻿namespace BaseLibrary.Application.DTOs.Base
 {
     public interface IDto
     {
-    }
-
-    public interface IdDto : IDto
-    {
-        int Id { get; set; }
+        public int Id { get; set; }
     }
 }

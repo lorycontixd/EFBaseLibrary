@@ -1,4 +1,4 @@
-﻿using BaseLibrary.Application.Interfaces.Utils;
+﻿using BaseLibrary.Application.Interfaces;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaseLibrary.Application.Services.Utils
+namespace BaseLibrary.Application.Services
 {
     public abstract class BaseLoggingService : ILoggingService
     {

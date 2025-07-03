@@ -1,5 +1,4 @@
-﻿using BaseLibrary.Application.Interfaces.Utils;
-using BaseLibrary.Application.Services.Base;
+﻿using BaseLibrary.Application.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
