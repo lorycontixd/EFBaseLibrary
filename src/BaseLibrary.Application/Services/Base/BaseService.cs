@@ -1,6 +1,6 @@
 ﻿using BaseLibrary.Application.Interfaces.Base;
 
-namespace BaseLibrary.Services.Base
+namespace BaseLibrary.Application.Services.Base
 {
     public abstract class BaseService<TEntity>(IBaseRepository<TEntity> repo) : IBaseService<TEntity> where TEntity : class
     {

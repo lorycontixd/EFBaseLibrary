@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BaseLibrary.Infrastructure.Data.Repositories.Base
+﻿namespace BaseLibrary.Application.Interfaces.Base
 {
     /// <summary>
     /// Base interface for read-only repositories, which provides methods to retrieve entities without modifying them.

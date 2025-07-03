@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BaseLibrary.Infrastructure.Data.Repositories.Base
+﻿namespace BaseLibrary.Application.Interfaces.Base
 {
+    /// <summary>
+    /// Base interface for write-only repositories, which provides methods to add, update, and delete entities.
+    /// </summary>
+    /// <typeparam name="TEntity">Type of entity handled by the repository</typeparam>
     public interface IWriteOnlyRepository<TEntity> where TEntity : class
     {
         public Task AddAsync(TEntity entity);

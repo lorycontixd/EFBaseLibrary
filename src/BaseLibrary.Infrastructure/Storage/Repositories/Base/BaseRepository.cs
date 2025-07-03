@@ -1,7 +1,7 @@
 ﻿using BaseLibrary.Application.Interfaces.Base;
 using Microsoft.EntityFrameworkCore;
 
-namespace BaseLibrary.Infrastructure.Data.Repositories.Base
+namespace BaseLibrary.Infrastructure.Storage.Repositories.Base
 {
     public class BaseRepository<TContext, TEntity> : IBaseRepository<TEntity>
         where TContext : DbContext

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BaseLibrary.Core.Entities.Base
+﻿namespace BaseLibrary.Core.Entities.Base
 {
     /// <summary>
     /// Base class for entities that require auditing information, such as who created or updated the entity and when.

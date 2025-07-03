@@ -1,12 +1,7 @@
 ﻿using BaseLibrary.Application.Services.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BaseLibrary.Services.Utils.Hashing
+namespace BaseLibrary.Infrastructure.Services.Utils.Hashing
 {
     public class Pbkdf2HashingService : IHashingService
     {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BaseLibrary.Application.Services.Utils
+﻿namespace BaseLibrary.Application.Services.Utils
 {
     public interface IHashingService
     {

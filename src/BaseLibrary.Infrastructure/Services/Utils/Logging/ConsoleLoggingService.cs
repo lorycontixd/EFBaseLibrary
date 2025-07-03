@@ -1,6 +1,6 @@
 ﻿using BaseLibrary.Application.Services.Utils;
 
-namespace BaseLibrary.Services.Utils.Logging
+namespace BaseLibrary.Infrastructure.Services.Utils.Logging
 {
     public class ConsoleLoggingService : ILoggingService
     {

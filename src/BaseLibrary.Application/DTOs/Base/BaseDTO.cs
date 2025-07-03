@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
-namespace BaseLibrary.Dto.Base
+namespace BaseLibrary.Application.Dto.Base
 {
     /// <summary>
     /// Base class for all Data Transfer Objects (DTOs) that include an ID property.

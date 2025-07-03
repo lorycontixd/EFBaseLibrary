@@ -1,7 +1,7 @@
 ﻿using BaseLibrary.Core.Entities.Base;
 using Microsoft.EntityFrameworkCore;
 
-namespace BaseLibrary.Infrastructure.Data.DbContexts
+namespace BaseLibrary.Infrastructure.Storage.DbContexts
 {
     public abstract class BaseDbContext(DbContextOptions<BaseDbContext> options) : DbContext(options)
     {

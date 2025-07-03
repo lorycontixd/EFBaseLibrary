@@ -1,4 +1,4 @@
-﻿namespace BaseLibrary.Services.Base
+﻿namespace BaseLibrary.Application.Services.Base
 {
     public interface IBaseService<TEntity> where TEntity : class
     {
